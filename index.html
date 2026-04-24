@@ -646,7 +646,7 @@ pre.code-block{padding:18px;margin:0;font-size:12px;line-height:1.8;font-family:
     <div style="padding:28px 28px 24px;border-radius:16px;background:rgba(255,0,122,.04);border:1px solid rgba(255,0,122,.12);">
       <div style="font-size:10px;font-weight:700;letter-spacing:.18em;color:#FF007A;margin-bottom:10px;">LUMISIRIUSS&#8482;</div>
       <div style="font-family:'Syne',sans-serif;font-size:19px;font-weight:800;color:var(--text-primary);margin-bottom:10px;">Semantic Video Compression</div>
-      <p style="font-size:13px;color:var(--text-dim);line-height:1.7;margin-bottom:14px;">90% smaller. Compresses meaning, not pixels. Every frame cryptographically signed. Patent pending.</p>
+      <p style="font-size:13px;color:var(--text-dim);line-height:1.7;margin-bottom:14px;">90% smaller. Compresses meaning, not pixels. Every video is tamper-proof from deepfake. Patent pending.</p>
       <div class="prod-bullet m">85.6% SSIM fidelity at 90% size reduction</div>
       <div class="prod-bullet m">Tamper-proof — any edit breaks the chain</div>
       <div class="prod-bullet m">V3 in active training · improving daily</div>
@@ -772,7 +772,7 @@ pre.code-block{padding:18px;margin:0;font-size:12px;line-height:1.8;font-family:
   <div class="bm-wrap">
     <p class="section-eyebrow mag">Real-World Performance · V3 Benchmark</p>
     <h2 class="section-title" style="color:var(--text-primary);">Same 4K footage.<br><span style="background:linear-gradient(90deg,#FF007A,#7000FF);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;">90% smaller.</span></h2>
-    <p style="font-size:15px;color:var(--text-dim);max-width:640px;line-height:1.75;margin-top:8px;">The original 4K product video on the left. Lumisiriuss V3 reconstruction on the right. The semantic container (.semvid) that produced this weighs just 3.5 MB.</p>
+    <p style="font-size:15px;color:var(--text-dim);max-width:640px;line-height:1.75;margin-top:8px;">The original 4K product video on the left. Lumisiriuss V2 reconstruction on the right. The semantic container (.semvid) that produced this weighs just 3.7 MB.</p>
   </div>
 
   <div class="bm-wrap">
@@ -814,7 +814,7 @@ pre.code-block{padding:18px;margin:0;font-size:12px;line-height:1.8;font-family:
         <div class="vc-badge">
           <div class="bm-big-pct" data-count="90" data-suffix="%">90%</div>
           <div class="bm-big-sub">SMALLER · SEMVID</div>
-          <div class="bm-semvid-pill">.semvid · 3.5 MB</div>
+          <div class="bm-semvid-pill">.semvid · 3.7 MB</div>
         </div>
 
         <div class="vc-stats-panel">
@@ -825,7 +825,7 @@ pre.code-block{padding:18px;margin:0;font-size:12px;line-height:1.8;font-family:
             <div class="bm-snum grn">85.6%</div><div class="bm-slab">SSIM fidelity</div>
           </div>
           <div class="vc-sc stat-tip" data-tip=".semvid container — semantic tokens only. 90% smaller than H.264 source">
-            <div class="bm-snum red">3.5 MB</div><div class="bm-slab">.semvid file</div>
+            <div class="bm-snum red">3.7 MB</div><div class="bm-slab">.semvid file</div>
           </div>
         </div>
       </div>
@@ -936,7 +936,7 @@ pre.code-block{padding:18px;margin:0;font-size:12px;line-height:1.8;font-family:
     <div class="glass mw">
       <div class="mw-icon">⛓</div>
       <div class="mw-title">Tamper-Proof</div>
-      <div class="mw-sub">Every frame signed. Any edit breaks the chain.</div>
+      <div class="mw-sub">Structurally secure — any modification is immediately detected.</div>
     </div>
     <div class="glass mw">
       <div class="mw-badge"><span class="mw-live-dot"></span>LIVE TRAINING</div>
@@ -1366,7 +1366,7 @@ pre.code-block{padding:18px;margin:0;font-size:12px;line-height:1.8;font-family:
       ctx.font='bold 7px ui-monospace,monospace';ctx.textAlign='center';ctx.textBaseline='bottom';
       ctx.fillText('SEMANTIC COMPRESSION',cx,cy-40);ctx.restore();
       // badge
-      drawCard(cx,cy,showT*fadeT,op,'.semvid','3.5 MB',true);
+      drawCard(cx,cy,showT*fadeT,op,'.semvid','3.7 MB',true);
       // bottom label
       ctx.save();ctx.globalAlpha=op*.55;ctx.fillStyle='rgba(255,255,255,.45)';
       ctx.font='bold 8px ui-monospace,monospace';ctx.textAlign='center';ctx.textBaseline='top';
